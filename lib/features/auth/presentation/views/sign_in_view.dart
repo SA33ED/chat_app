@@ -12,7 +12,7 @@ class SignInView extends StatelessWidget {
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: Column(
+        child: ListView(
           children: [
             const SizedBox(height: 48),
             Image.asset(
